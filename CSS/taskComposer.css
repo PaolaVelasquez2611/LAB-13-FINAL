@@ -1,0 +1,55 @@
+
+body {
+
+    background-color: rgb(246, 222, 221);
+    display: flex;
+    
+    }
+
+
+.inputlist {
+
+    margin: 0 auto;
+    margin-top: 300px;
+    width: 50%;
+    height: 200px;
+    background-color: rgb(247, 140, 128);
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+
+}
+
+.inputlist h1{
+
+    color: white;
+    margin: 0 auto;
+    padding: 10px;
+    font-family: 'Abel', sans-serif;
+
+}
+
+.inputlist input {
+    border-radius: 30px;
+    margin: 0 auto;
+    height: 30px;
+    width: 70%;
+    margin-top: 10px;
+    border: none;
+    font-family: 'Abel', sans-serif;
+    text-align: center;
+}
+
+
+
+.inputlist button {
+
+width: 100px;
+margin: 0 auto;
+margin-top: 20px;
+border: none;
+border-radius: 30px;
+background-color: rgb(255, 255, 255);
+height: 30px;
+color: ; rgb(247, 140, 128);
+}
