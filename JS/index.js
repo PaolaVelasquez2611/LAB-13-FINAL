@@ -88,10 +88,10 @@ function buttonAction(button){
     loadPosts(json)
 }
 
-//Cargar informacion del localstorage
+
 let savedPost = localStorage.getItem('posts');
 if(savedPost != null){
-    //Sí hay informacion almacenada
+  
     loadPosts(savedPost);
 }
 
@@ -101,3 +101,4 @@ addPost.addEventListener('click', function(){
     window.location.href = "taskComposer.html"
 });
 
+// Pagina de tasks
