@@ -5,7 +5,6 @@ const submitBtn = document.getElementById('submitBtn');
 const localStorage = window.localStorage;
 
 
-//Cargar información que ya teníamos
 let savedPost = localStorage.getItem('posts');
 let posts = [];
 if(savedPost != null){
